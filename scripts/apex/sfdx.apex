@@ -1,0 +1,1 @@
+ sfdx force:user:create --setalias qa-user --definitionfile config/user-def.json

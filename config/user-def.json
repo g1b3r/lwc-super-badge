@@ -1,0 +1,12 @@
+{
+    "Username": "devops-user@sfdx.org",
+    "LastName": "Cezu",
+    "Email": "luk.ceran@gmail.com",
+    "Alias": "tester1",
+    "TimeZoneSidKey": "America/Denver",
+    "LocaleSidKey": "en_US",
+    "EmailEncodingKey": "UTF-8",
+    "LanguageLocaleKey": "en_US",
+    "profileName": "System Administrator",
+    "generatePassword": true
+}
