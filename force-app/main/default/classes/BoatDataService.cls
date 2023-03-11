@@ -11,14 +11,7 @@ public with sharing class BoatDataService {
     public static final String PRICE_TYPE = 'Price'; 
     public static final String TYPE_TYPE = 'Type'; 
 
-    @AuraEnabled(Chacheable=TRUE)
-    public static string methodName(){
-        try {
-            
-        } catch (Exception e) {
-            throw new AuraHandledException(e.getMessage());
-        }
-    }
+    @AuraEnabled
     public static List<Boat__c> getBoats(String boatTypeId) {
         // Without an explicit boatTypeId, the full list is desired
         String query = 'SELECT '
