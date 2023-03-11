@@ -1,6 +1,6 @@
 {
-  "orgName": "lukaszceran company",
-  "edition": "Developer",
+  "orgName": "CEZU company",
+  "edition": "Enterprise",
   "features": ["EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {
@@ -8,6 +8,10 @@
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
-    }
-  }
+    },
+    "devHubSettings": {
+      "enableDevOpsCenterGA": true
+      }  
+  }  
 }
+
